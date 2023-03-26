@@ -113,7 +113,6 @@ public class MostradorDeCodigo extends javax.swing.JDialog implements ClipboardO
                 .addComponent(btnFechar))
         );
 
-        jToolBar1.setFloatable(false);
         jToolBar1.setRollover(true);
         jToolBar1.setMargin(new java.awt.Insets(2, 2, 2, 2));
 
@@ -134,8 +133,8 @@ public class MostradorDeCodigo extends javax.swing.JDialog implements ClipboardO
         txtZoon.setToolTipText(bundle.getString("MostradorDeCodigo.toolTipText")); // NOI18N
         txtZoon.setBorder(null);
         txtZoon.setCaretPosition(0);
-        txtZoon.setMinimumSize(new java.awt.Dimension(30, 14));
-        txtZoon.setPreferredSize(new java.awt.Dimension(140, 14));
+        txtZoon.setMinimumSize(new java.awt.Dimension(10, 20));
+        txtZoon.setPreferredSize(new java.awt.Dimension(50, 20));
         jToolBar1.add(txtZoon);
 
         btnZma.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/zoom.png"))); // NOI18N
@@ -201,7 +200,7 @@ public class MostradorDeCodigo extends javax.swing.JDialog implements ClipboardO
             .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addComponent(scrPrincipal)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(jToolBar1, javax.swing.GroupLayout.PREFERRED_SIZE, 208, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jToolBar1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
